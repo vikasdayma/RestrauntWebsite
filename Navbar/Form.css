@@ -1,0 +1,112 @@
+.form{
+
+    height: 100%;
+    width: 100%;
+   display: flex;
+    justify-content: center;
+    padding-top: 4.7rem;
+ 
+    
+}
+.form-text{
+ background-color: white;
+ /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 18px 0 rgba(0, 0, 0, 0.19);  */
+ height: 25rem;
+ width: 15rem;
+text-align:  center;
+
+}
+.form-text h3{
+    
+    font-weight: 900;
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.form-text div{
+  border-radius: 0%;
+    height:2rem;
+    display: flex;
+    border: 1px solid black;
+    align-items: center;
+   justify-content: center;
+   width: 100%;
+}
+.login{
+    display: flex;
+    justify-content: center;
+    
+}
+.login-button{
+    text-decoration: none;
+    color: green;
+}
+
+input[type="email"],
+input[type="password"] {
+    width: 14rem;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+.form-text button {
+    width: 15.5rem;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color:#10A37F;
+    opacity: 0.9;
+    color: #fff;
+}
+
+.google { 
+    border-radius: 3px;
+    height:2rem;
+    display: flex;
+    border: 1px solid black;
+    align-items: center;
+   /* justify-content: space-evenly; */
+   width: 100%;
+   font-family:Arial, Helvetica, sans-serif ;
+   font-size: 0.8rem;
+   text-align: center;
+   margin-top: 5px;
+   color: #3b5998;
+   
+}
+.google img{
+    padding-left: 1rem;
+}
+.google p{
+    padding-left: 1rem;
+     text-decoration: none;
+     color: black;
+} 
+   
+.facebook {
+    background-color: #3b5998;
+    color: #fff;
+}
+.phone{
+    background-color: black;
+}
+.continue{
+    color: white;
+    text-decoration: none;
+}
+
+#signup{
+    background-color: blue;
+    opacity: 0.6;
+    
+}
+.form-text h2{
+    font-weight: 350;
+}
+ .text-dec-none{
+    text-decoration: none;
+    color: black;
+ }

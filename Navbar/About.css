@@ -1,0 +1,30 @@
+.main-menu{
+    display: flex;
+    justify-content: space-evenly;
+    height: 100%;
+    width: 100%;
+    padding-top: 3rem;
+
+}
+#learnmore {
+    color: green;
+    border: 2px solid green;
+    border-radius: 20px;
+    height: 2rem;
+    width: 6rem;
+    text-align: center;
+     background-color: white;
+     color: green;
+     font-weight: 600;
+ 
+}
+
+.about-text{
+    font-weight: 450;
+}
+.text{
+    display: inline-block;
+}
+.hide{
+    display: none;
+}

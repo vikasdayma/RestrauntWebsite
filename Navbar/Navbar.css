@@ -1,0 +1,83 @@
+.tags{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+  }
+  .a{
+    text-decoration: none;
+    color: #a3a3a3;
+    color: black;
+    font-family: cursive;
+    margin-left: 2.5rem;
+    font-size: 1.1rem;
+    font-weight: 900;
+
+  }
+  .a:hover{
+    border-bottom: 2px solid #a3a3a3;
+    opacity: 0.9;
+  
+  }
+  /* @keyframes example {
+    from{border-bottom:1px solid orange;}
+    to{border-bottom:3px solid orange ;}    
+  } */
+  .logo{
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+   align-items: center;
+   color: #a3a3a3;
+   color: black;
+   
+  }
+  .logo p{
+    font-size: 1.4rem;
+  }
+  .tags button{
+   
+    height: 2rem;
+    width: 5rem;
+    border-radius: 10px;
+    border: 1px solid green;
+    margin-left: 1rem;
+    color: black;
+    font-family: cursive;
+    font-size: 1rem;
+    background-color: orange;
+ color: white;
+  }
+  .tags button:hover{
+    cursor: pointer;
+  }
+  @keyframes opac {
+    from{opacity: 0;}
+    to{opacity: 1;}
+  }
+  .navbar{
+    display: flex;
+  justify-content: space-evenly;
+  position: fixed;
+  width: 100%;
+  align-items: center;
+  height: 4rem;
+ background-color: rgb(117, 131, 180);
+ background-color: black;
+ background-color: white;
+ 
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+  opacity: 0.93;
+animation-name: opac;
+animation-duration: 6s;
+animation-iteration-count: 1;
+  }
+  
+ 
+
+  .red{
+    color: red;
+  }
+  .vikas{
+    color: blue;
+  }
